@@ -3,14 +3,14 @@
 
 from instabot import InstaBot
 
-bot = InstaBot(login="my_username", password="my_password",
+bot = InstaBot(login="seun_akande", password="quandezz",
                like_per_day=1000,
-               comments_per_day=0,
+               comments_per_day=10,
                tag_list=['follow4follow', 'f4f', 'cute'],
                tag_blacklist=['rain', 'thunderstorm'],
                user_blacklist={'hellokitty':'', 'hellokitty3':''},
                max_like_for_one_tag=50,
-               follow_per_day=150,
+               follow_per_day=1000,
                follow_time=5*60*60,
                unfollow_per_day=150,
                unfollow_break_min=15,
